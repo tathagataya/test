@@ -1,0 +1,53 @@
+/* CSS styles */
+h1 {
+    font-family: Impact, sans-serif;
+    color: #1c2b62;
+}
+.image-card::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(131, 222, 151, .1), rgba(27, 87, 50, .9));
+}
+body{
+    background-color: #c5d9e0;
+}
+
+.about_me {
+    margin-bottom: 2px;
+    padding: 2px;
+    width: 70px;
+    height: 50px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px
+}
+
+.experience {
+    margin-bottom: 2px;
+    padding: 2px;
+    width: 500px;
+    height: 50px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px
+}
+
+.education {
+    margin-bottom: 2px;
+    padding: 2px;
+    width: 120px;
+    height: 50px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px
+}
+
+.developer {
+    margin-bottom: 2px;
+    padding: 2px;
+    width: 250px;
+    height: 100px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px
+}
